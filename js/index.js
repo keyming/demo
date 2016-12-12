@@ -1,4 +1,4 @@
-﻿onload=function(){
+﻿/*onload=function(){
 
 	
 				/*var oDiv=document.getElementById("M_ad");
@@ -39,8 +39,8 @@
 				}
 		
 				
-				*/
-			var i=0;
+			
+		var i=0;
 			var oDate=document.getElementById("date");
 			var oImg=oDate.getElementsByTagName("img");
 			setInterval(iTimer,1000);
@@ -61,7 +61,7 @@
 		
 function oTwo(n){return n<10?"0"+n:""+n;}
 			
-
+*/
 			
 $(function(){
 	//menu 事件
@@ -71,6 +71,24 @@ $(function(){
 			}, function() { 
 			$(this).find('.sub_menu').css('display', 'none'); 
 			}); 
+	})();
+	//form
+	(function(){
+		var aBtn=$('.form .btn');
+		var  aText=$('.form .text');
+		aText.click(function(){
+			$(this).val('');
+		});
+		aText.blur(function(){
+			if($(this).val()==''){
+				$(this).val('舒芙蕾|提拉米苏');
+			}else{
+			  return false;
+			}
+		})
+		aBtn.click(function(){
+			alert('抱歉！ 数据更新中');
+		})
 	})();
 	//广告图片
 	(function(){
@@ -135,8 +153,23 @@ $(function(){
 				});
 			}
 	})();
-	
-	//RECOMMDNE 相册播放
+	//date
+	(function(){
+		var strImg=$('#date img');
+		setInterval(fnTimer,1000);
+		fnTimer();
+		
+	function fnTimer(){
+		var D=new Date();
+		var str=oTwo(D.getHours())+oTwo(D.getMinutes())+oTwo(D.getSeconds());
+			strImg.html(str);
+			for(var i=0;i<str.length;i++){
+				strImg.eq(i).attr('src','img/date/'+str.charAt(i)+'.png' );
+			}
+	}
+	function oTwo(n){return n<10? '0'+n:''+n;}
+	})();
+	//calendar
 	(function(){
 		var aSpan=$('.calendar h3 span');
 		var zImg=$('.calendar .img');
@@ -159,7 +192,7 @@ $(function(){
 			aPrompt.hide();
 		});
 	})();
-	
+//RECOMMDNE 相册播放
 	(function(){
 		var oDiv=$('#fade')
 		var aUl=oDiv.find('ul li');

@@ -44,7 +44,7 @@ body { font-size:12px; font-family:"微软雅黑"; }
 	#footer{height:30p;border:1px solid #dadada;border-radius:6px;overflow:hidden;position:relative;margin-bottom:10px;}
 	
 /*end layout*/
- body{background-image:url(../img/content/background3.png);background-repeat:no-repeat;width:100%;overflow-x:hidden;background-attachment:fixed;background-position:center center;}
+ body{background-image:url(../img/content/background2.png);background-repeat:no-repeat;width:100%;overflow-x:hidden;background-attachment:fixed;background-position:center center;}
 .options .nav{height:34px;position:relative;z-index:2;}
 .options .nav li{height:33px;width:172px;line-height:34px;border:1px solid #dadada;border-radius:6px 6px 0 0;text-align:center;border-bottom:none;position:relative;cursor:pointer;}
 .options .nav .active  { height:34px; line-height:34px; background:#fff; }
