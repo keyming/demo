@@ -8,7 +8,7 @@ img { border:none; vertical-align:top; }
 table { border-collapse:collapse; }
 input,textarea { outline:none; }
 textarea { resize:none; overflow:auto; }
-body { font-size:12px; font-family:"微软雅黑"; }
+body { font: normal 100% Helvetica, Arial, sans-serif;}
 /*end rest*/
 
 /*public*/
@@ -124,7 +124,7 @@ img,object{max-width:100%;}
 .activity .text em ,.activity .text span{float:left;}
 .activity .text h3{height:30px;}
 .activity  .text em{background:url(../img/activity_bg.gif) no-repeat -345px 0;width:27px; height:27px;color:red;line-height:27px;text-align:center;margin-left:3px;}
-.activity  .text span{color:black;font-size:12px;margin-left:5px;margin-top:4px;}
+.activity  .text span{color:black;font-size:12px;margin-left:3px;margin-top:4px;}
 .activity  .text p{font-size:12px;font-weight:normal;color:#666;line-height:18px;padding-top:10px;}
 
 .calendar{width:323px; padding-left:25px; position:relative; }
