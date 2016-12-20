@@ -44,7 +44,8 @@ body { font-size:12px; font-family:"微软雅黑"; }
 	#footer{height:30p;border:1px solid #dadada;border-radius:6px;overflow:hidden;position:relative;margin-bottom:10px;}
 	
 /*end layout*/
- body{background-image:url(../img/content/background2.png);background-repeat:no-repeat;width:100%;overflow-x:hidden;background-attachment:fixed;background-position:center center;width:100%;height:100%;}
+ body{background-image:url(../img/content/background2.png);background-repeat:no-repeat;width:100%;overflow-x:hidden;background-attachment:fixed;background-position:center center;width:100%;}
+img,object{max-width:100%;}
 .options .nav{height:34px;position:relative;z-index:2;}
 .options .nav li{height:33px;width:172px;line-height:34px;border:1px solid #dadada;border-radius:6px 6px 0 0;text-align:center;border-bottom:none;position:relative;cursor:pointer;}
 .options .nav .active  { height:34px; line-height:34px; background:#fff; }
@@ -120,8 +121,10 @@ body { font-size:12px; font-family:"微软雅黑"; }
 .activity .img .mask{background:url(../img/activity_bg.gif) no-repeat -373px 0;width:84px;height:84px;position:absolute;}
 .activity  .img img{width:82px;height:82px;}
 .activity  .text{width:220px;}
-.activity  .text em{background:url(../img/activity_bg.gif) no-repeat -345px 0;padding:5px;margin:3px;color:red;}
-.activity  .text span{color:black;font-size:12px;margin-left:3px;}
+.activity .text em ,.activity .text span{float:left;}
+.activity .text h3{height:30px;}
+.activity  .text em{background:url(../img/activity_bg.gif) no-repeat -345px 0;width:27px; height:27px;color:red;line-height:27px;text-align:center;margin-left:3px;}
+.activity  .text span{color:black;font-size:12px;margin-left:5px;margin-top:4px;}
 .activity  .text p{font-size:12px;font-weight:normal;color:#666;line-height:18px;padding-top:10px;}
 
 .calendar{width:323px; padding-left:25px; position:relative; }
