@@ -8,7 +8,7 @@ img { border:none; vertical-align:top; }
 table { border-collapse:collapse; }
 input,textarea { outline:none; }
 textarea { resize:none; overflow:auto; }
-body { font: normal 100% Helvetica, Arial, sans-serif;}
+body{font-size:12px;font-family:"微软雅黑";}
 /*end rest*/
 
 /*public*/
@@ -44,7 +44,15 @@ body { font: normal 100% Helvetica, Arial, sans-serif;}
 	#footer{height:30p;border:1px solid #dadada;border-radius:6px;overflow:hidden;position:relative;margin-bottom:10px;}
 	
 /*end layout*/
- body{background-image:url(../img/content/background2.png);background-repeat:no-repeat;width:100%;overflow-x:hidden;background-attachment:fixed;background-position:center center;width:100%;}
+@media only screen and (min-width:1024px){
+	#header,#M_ad,.content,#footer{width:960px;margin:auto;}
+	#header,.#M_ad,#footer{margin-bottom:10px;}
+}
+@media only screen and (min-width:400px) and (max-width:1024px){#header,#M_ad,.content,#footer{width:98%;}}
+@media only screen and (max-width:400px){
+	#header,#M_ad,.content,#footer{width:98%;}
+}
+body{background-image:url(../img/content/background2.png);background-repeat:no-repeat;width:100%;overflow-x:hidden;background-attachment:fixed;background-position:center center;width:100%;}
 img,object{max-width:100%;}
 .options .nav{height:34px;position:relative;z-index:2;}
 .options .nav li{height:33px;width:172px;line-height:34px;border:1px solid #dadada;border-radius:6px 6px 0 0;text-align:center;border-bottom:none;position:relative;cursor:pointer;}
