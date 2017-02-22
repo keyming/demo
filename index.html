@@ -6,6 +6,7 @@
 
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="css/style.css"/>
+
 </head>
 <body>
 
@@ -150,7 +151,7 @@
         </div>
     </div>
 </section>
-<section>
+<section id="news">
 	<div class="container">
     	<div class="section_left col-md-7">
         	<div class="d_title">
@@ -287,12 +288,12 @@
                         	<img src="images/pic10.jpg">
                         </div>                                                
                     </div>
-                </dov>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<section>
+<section id="Promotion">
 	<div class="container">
     	<div class="section_left col-md-7">
         	<div class="d_title">
@@ -306,30 +307,75 @@
                 </div>
             </div>
             <div class="d_content">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="panel panel-primary">
-						<div class="panel-heading">DOTA2商城</div>
-						<div class="panel-body">
-							<a href="demo/demo1/DOTA2_index.html" class="thumbnail">
-							    <img src="images/demo1.png" alt="DOTA2商城" title="DOTA2商城" />
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="panel panel-primary">
-						<div class="panel-heading">DOTA2商品详情页</div>
-						<div class="panel-body">
-							<a href="demo/demo2/detail.html" class="thumbnail">
-							    <img src="images/demo2.png" alt="DOTA2商品详情页" title="DOTA2商品详情页" />
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-            </div>
+				<div id="page-slide" class="carousel slide">
+                	<ol class="carousel-indicators">
+                    	<li data-target="#page-slide" data-slide-to="0" class="active"></li>
+                        <li data-target="#page-slide" data-slide-to="1"></li>
+                    </ol>
+                	   <div class="carousel-inner">
+        					<div class="item active text-center">
+                            	<div class="row">
+                        			<div class="col-sm-5">
+                                    		<a href="#">
+                            						<img class="img-responsive" src="images/panle1.jpg">
+                                            		<p>我的2016守卫遗迹故</p>
+                                             </a>
+                           			 </div>
+                        			<div class="col-sm-5">
+                                    		<a href="#">
+                            					<img class="img-responsive" src="images/panel2.jpg">
+                                           	 	<p>我的2016守卫遗迹故</p>
+                                            </a>
+                                        </div>    
+                             			<div class="col-sm-5">
+                                    		<a href="#">
+                            					<img class="img-responsive" src="images/panel2.jpg">
+                                            	<p>我的2016守卫遗迹故</p>
+                                            </a>
+                           			 </div>
+                        			<div class="col-sm-5">
+                                    		<a href="#">
+                            					<img class="img-responsive" src="images/panel2.jpg">
+                                            	<p>我的2016守卫遗迹故</p>
+                                            </a>
+                           			 </div>                      	
+
+                            	</div>
+                        </div>
+        				<div class="item text-center">
+                            	<div class="row">
+                        			<div class="col-sm-5">
+                                    		<a href="#">
+                            						<img class="img-responsive" src="images/panle1.jpg">
+                                            		<p>我的2016守卫遗迹故</p>
+                                             </a>
+                           			 </div>
+                        			<div class="col-sm-5">
+                                    		<a href="#">
+                            					<img class="img-responsive" src="images/panel2.jpg">
+                                           	 	<p>我的2016守卫遗迹故</p>
+                                            </a>
+                                        </div>    
+                             			<div class="col-sm-5">
+                                    		<a href="#">
+                            					<img class="img-responsive" src="images/panel2.jpg">
+                                            	<p>我的2016守卫遗迹故</p>
+                                            </a>
+                           			 </div>
+                        			<div class="col-sm-5">
+                                    		<a href="#">
+                            					<img class="img-responsive" src="images/panel2.jpg">
+                                            	<p>我的2016守卫遗迹故</p>
+                                            </a>
+                           			 </div>                      	
+
+                            	</div>
+                        </div>
+                    </div>
+                        <a class="carousel-control hidden-xs left"  href="#page-slide" data-slide="prev"></a>
+                        <a class="carousel-control hidden-xs right" href="#page-slide" data-slide="next"></a>
+                </div>
+           </div>
            </div>
             <div class="section_right col-md-5">
             	<div class="d_title">
@@ -342,11 +388,205 @@
                         <i class="d_icon d_icon_more"></i>
                     </div>
                 </div>
+                <div class="d_content">
+                    <div class="pictureSlider poster-main" data-setting='{"width":460,"height":230,"posterWidth":290,"posterHeight":360,"scale":0.8,"autoPlay":true,"delay":2000,"speed":300}'>
+                        <a class="poster_btn poster-prev"></a>
+                        <ul class="poster-list">
+                            <li class="poster-item">
+                                <a href="#">
+                                    <img src="images/games2.jpg" >
+                                    <span>波士顿特级锦标赛</span>
+                                </a>
+                            </li>
+                            <li class="poster-item">
+                            	<a href="#">
+                               	 <img src="images/games3.png">
+                                 <span>中国DOTA2职业联赛</span>
+                                </a>
+                             </li>
+                            <li class="poster-item">
+                                <a href="#">
+                                    <img src="images/games2.jpg" >
+                                    <span>波士顿特级锦标赛</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <a class="poster_btn poster-next"></a>
+                    </div>
+                </div>
+            	<div class="d_title map">
+                	<div class="d_left">
+                    	<i class="d_icon d_icon_map"></i>
+                        <span>自定义地图</span>
+                    </div>
+                    <div class="d_right">
+                    	<span>更多</span
+                        ><i class="d_icon d_icon_more"></i>
+                    </div>
+                </div>
+                <div class="row">        
+               			 <ul class="d-list">
+                        		<div class="col-sm-6 poster-item">
+                                    		<a href="#">
+                            						<img class="img-responsive" src="images/Duel.jpg">
+                                            		<span>Snipers Duel（狙击手决斗）</span>
+                                             </a>
+                           			</div>
+                        			<div class="col-sm-6 poster-item">
+                                    		<a href="#">
+                            						<img class="img-responsive" src="images/LEVEL25.jpg">
+                                            		<span>LEVLE25</span>
+                                             </a>
+                           		 </div>
+                			</ul>
+                </div>                
             </div>
     </div>
 </section>
+<section id="vedio">
+	<div class="container">
+    	<div class="section_left col-md-7">
+        	<div class="d_title">
+            	<div class="d_left">
+                	<i class="d_icon d_icon_vedio"></i>
+                    <span>新闻</span>
+                </div>                <div class="d_right">
+
+                    <span>更多</span>
+                    <i class="d_icon d_icon_more"></i>
+                </div>
+            </div>
+            <div class="d_content">
+            	<ul class="nav navbar-nav d_vedio">
+                	<li class="d_active">最新视频</li>
+                    <li>官方视频</li>
+                    <li>比赛视频</li>
+                    <li>战舰视频</li>
+                
+                <div class="row text-center">
+                	<div class="col-sm-4">
+                    	<a href="#">
+                        	<img src="images/evdio1.png">
+                            <p>E周发布第一期：EHOME DOTA2各战队近况</p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                    	<a href="#">
+                        	<img src="images/evdio2.jpg">
+                            <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                    	<a href="#">
+                        	<img src="images/evdio2.jpg">
+                            <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                    	<a href="#">
+                        	<img src="images/evdio3.jpg">
+                            <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
+                        </a>
+                    </div>
+                       <div class="col-sm-4">
+                    	<a href="#">
+                        	<img src="images/evdio2.jpg">
+                            <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                    	<a href="#">
+                        	<img src="images/evdio2.jpg">
+                            <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
+                        </a>
+                    </div>                 
+                </div>
+                </ul>
+            </div>
+         </div>   
+         <div class="section_right col-md-5 d_call">
+            <div class="d_title">
+                	<div class="d_left">
+                    	<i class="d_icon d_icon_call"></i>
+                        <span>客服中心</span>
+                    </div>
+                    <div class="d_right">
+                    	<span>更多</span>
+                        <i class="d_icon d_icon_more"></i>
+                    </div>
+               </div>
+            <div class="d_content">
+            	<div class="input-group">
+                	<input type="text" class="form-control input-lg"><span class="input-group-addon btn btn-primary">搜索</span>
+               	</div>
+                <div class="tab-content">
+                <h4 class="">常见问题</h4>
+                <ul class="list-group">
+             		<li class="list-group-item">
+                   		 <a href="#">
+                         <i class="icon-bar"></i>
+                         如何找回与DOTA2账户绑定的完美通行证？
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">
+                        <i class=""></i>
+                        为什么我需要注册两个账号？
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">
+                        <i class=""></i>
+                        如何注册DOTA2账号？
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">
+                        <i class=""></i>
+                        如何绑定完美通行证（完美电竞账号）？
+                        </a>
+                    </li>
+             		<li class="list-group-item">
+                   		 <a href="#">
+                         <i class="icon-bar"></i>
+                         如何找回与DOTA2账户绑定的完美通行证？
+                        </a>
+                    </li>
+
+                </ul>
+                </div>
+            </div>
+        </div>   
+   </div>
+</section>
+<footer id="footer" class="top-space">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-lg-4 widget">
+            	<div class="widget-body">
+                	<a href="#" class="wanmei">
+                    	<img src="images/logo-wanmei.png">
+                    </a>
+                    <a href="#" class="valve">
+                    	<img src="images/logo-valve.png">
+                    </a>
+            </div>
+        </div>
+        <div class="col-lg-10 ">
+                	<p>完美世界（北京）网络技术有限公司 版权所有 Copyright © 2012-2017 Perfect World Co., Ltd. All Rights reserved</br>
+                    ©2012 Valve Corporation. All Rights reserved. Licensed to Perfect World Co., Ltd. in China</p>
+
+        </div>
+         <div class="col-lg-9">
+            	<p>京ICP证：050016号《网络文化经营许可证》编号：京网文[2011]0782-287号 《网络视听许可证》编号：0110587</p>
+                <p>京公网安备110105019888号 文网进字[2013] 028号 新出审字[2013] 1505号 ISBN：978-7-89989-826-0</p>
+        </div>
+    </div>
+  </div> 
+</footer>   
 <script src="bootstrap/js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="js/dota2.js"></script>
 </body>
 </html>
