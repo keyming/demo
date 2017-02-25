@@ -246,10 +246,13 @@
 		});
 	};
 
-	//挂载到window下
 	window["Carousel"] = Carousel;
 
 $(function(){
 	Carousel.init($(".pictureSlider"));
+
 });
+
+
 })(jQuery);
+
