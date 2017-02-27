@@ -253,6 +253,15 @@ $(function(){
 
 });
 
-
+$(function(){
+	//menu 事件
+	(function(){
+			$('.main-menu li').hover(function() { 
+			$(this).find('.sub-menu').css('display', 'block'); 
+			}, function() { 
+			$(this).find('.sub-menu').css('display', 'none'); 
+			}); 
+	})();
+});
 })(jQuery);
 

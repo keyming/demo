@@ -19,7 +19,7 @@ a,a:link,a:hover{
     text-decoration: none;
 }
 /*nav*/
-@media (max-width: 768px){
+@media (max-width: 1024px){
 .navbar-header {
 	 text-align: center;
 	 width: 100%;
@@ -30,12 +30,7 @@ a,a:link,a:hover{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
-}
-
-}
-.navbar-toggle{
-	color:#fff;
-	
+}	
 }
 .navbar{
 	min-height:80px;
@@ -59,7 +54,6 @@ a,a:link,a:hover{
 	color:#827c79;
 }
 
-
 .navbar .nav>li>a:hover,.sub-menu>li>a:hover,.dotauser .btn>a:hover{
 	color:#00c0ff;
 }
@@ -67,15 +61,39 @@ a,a:link,a:hover{
 .nav>li>a>.link_nav_e{
 	font-size:10px;
 }
-.sub-menu{
- display:none;
-	
+.menu ul{
+	padding:0;
+	margin:0;
 }
-.sub-menu>li>a:hover{
-	text-decoration:none;
+.menu .sub-menu{
+	display:none;
 }
-.sub-menu>li>a{
-	line-height:25px;
+
+.menu .main-menu .sub-menu a {
+  padding: 0.8em 0;
+  transition: all .125s ease-in-out;
+  -webkit-transition: all .125s ease-in-out;
+}
+.menu .sub-menu {
+  background-color: #202020;
+  opacity:0.9;
+}
+.menu li,.main-menu .sub-menu a{
+  position: relative;
+  display: block;
+  color: white;
+}
+.menu a:hover {
+  background-color: #262622;
+  color: #00c0ff;
+}
+@media (min-width: 1024px) {
+.menu .sub-menu{
+	position:absolute;
+	top:100%;
+	width:110px;
+	z-index:3;
+}
 }
 .dotauser{
 	line-height:80px;
@@ -89,6 +107,7 @@ a,a:link,a:hover{
 	text-decoration:none;
 }
 .dotauser .btn{
+	flaot:left;
 	color:#ccc;
 }	
 .dotauser>i{
@@ -1001,7 +1020,7 @@ section{
 	margin-left:0px;
 	width:100%;
 }
-.row d-list .pos
+/*旋转木马*/
 .section_right.col-md-5 .row .d-list .col-sm-6>a>img{
 	width:100%;
 	height:100%;
@@ -1023,7 +1042,12 @@ section{
 }
 
 }
-
+@media (max-width: 1024px){
+.row .d-list .col-sm-6>a>img,.row .d-list .col-sm-6>a>span{
+	width:100%;
+	height:100%;
+}
+ }
   /*vedio*/
 #vedio{
 	  color:#999;
@@ -1047,12 +1071,19 @@ section{
 	font-size:14px;
 	background-color:none;
 }
-.nav-tabs li.active a,.nav-tabs li.active a:hover{
+.nav-tabs li.active a{
+	border:0 none;
+	background:none;
+	background-color:#1a1b1f;
+	padding:11px 0;
+}
+.nav-tabs li.active a:hover{
 	border:0 none;
 	background:none;
 	background-color:#1a1b1f;
 	padding:10px 0;
 	color:#fff;
+
 }
 .nav-tabs>li>a:hover{
 	border:0 none;
@@ -1069,6 +1100,7 @@ section{
 	background-color:#1a1b1f;
 	border-color:#1a1b1f;
 	border-bottom-color: transparent;
+	padding:10px 0;
 }
 
 .nav-tabs{
@@ -1136,10 +1168,9 @@ section{
 .d_vedio .row .col-sm-4 a{
 	display:inline-block;
 }
-
-.d_call .d_content{
-	padding:20px 20px 5px 20px;
+#vedio .section_right.col-md-5 .d_content{
 	background-color:#15161a;
+	padding: 20px 20px 5px 20px;
 }
 .d_icon_call{
 	background-position:-3px -253px;
@@ -1156,6 +1187,8 @@ section{
 	margin-top:25px;
 	padding-bottom:10px;
 	border-bottom:1px solid #333;
+	font-size:16px;
+	margin-left:20px
 	
 }
 .list-group-item{
@@ -1167,6 +1200,37 @@ section{
 .list-group-item a{
 	display:block;
 	color:#ccc;	
+}
+.input-group  span{
+	margin-right:10px;
+}
+.d_icon .d_icon_search{
+	background-position:6px -692px;
+}
+
+.list-group li{
+	line-height:19px;
+}
+
+.list-group .list-red .d_icon_dot{
+	background-position:-3px -825px;
+}
+.btn.btn-default.btn-lg.active{
+	background-color:#565864;
+	color:#ccc;
+	border:1px solid #565864;
+}
+.btn.btn-default.btn-lg.active:hover{
+	background-color:#616161;
+}
+.list-group .list-red a{
+	color:#ed4c4c;
+}
+.list-group-item a:hover{
+	color:#00c0ff;
+}
+.list-group-item:hover .d_icon.d_icon_dot{
+	background-position:-3px -814px;	
 }
 
 /*from*/
