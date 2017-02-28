@@ -95,6 +95,9 @@ a,a:link,a:hover{
 	z-index:3;
 }
 }
+
+
+
 .dotauser{
 	line-height:80px;
 	float:right;
@@ -246,6 +249,7 @@ section{
 	background-position:-3px -789px;
 }
 #news .section_left .d_content,#news .section_right .d_content{
+	position:relative;
 	height:590px;
 	overflow:hidden;
 }
@@ -392,28 +396,19 @@ section{
     display: none;
  
 }
-.section_right .d_content .video {
-	margin-top:-170px;
+#news .section_right video{
 	width:100%;
-	height:100%;
+	height:260px;
 	position:relative;
-	box-sizing:border-box;
-	border:3px solid #000;
 	cursor:poiner;
-	overflow:hidden;
-	margin-bottom:-170px;
 	background:#1a1b1f;
-	
 }
-.video video{
-	width:100%;
-	height:100%;
 
-}
 .section_right .d_content .new-travel{
 	width:100%;
 	height:100%;
 	position:relative;
+	margin-top:-40px;
 	margin:0 auto;
 	background:url(../images/bg_monkey1.jpg) fixed center center no-repeat;
 	background-size:cover; 
@@ -1001,7 +996,7 @@ section{
 }
 .pictureSlider  a:hover.poster_btn{
 	background-color:#000;
-	background-color:bage(0,0,0,1);
+	background-color:rgba(0,0,0,0.5);
 
 }
 .poster-main .poster-prev{
@@ -1232,7 +1227,9 @@ section{
 .list-group-item:hover .d_icon.d_icon_dot{
 	background-position:-3px -814px;	
 }
-
+section{
+margin-bottom:50px;
+}
 /*from*/
 #footer{
 	font-family:"微软雅黑";
@@ -1276,9 +1273,4 @@ section{
 	color:#333;
 }
 
-#vedio .d_vedio .row .col-sm-4 a:hover{
-	display:block;
-	border: 1px solid #00c0ff;
-    box-shadow: 0 0 5px #00c0ff;
-    color: #00c0ff;
-}
+

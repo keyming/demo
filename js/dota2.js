@@ -262,6 +262,12 @@ $(function(){
 			$(this).find('.sub-menu').css('display', 'none'); 
 			}); 
 	})();
+	if(screen.width > 1024){
+	 var o = document.createElement('script');
+   o.type = 'text/javascript';
+   o.src = 'myjsfile.js';
+   document.getElementsByTagName('head')[0].appendChild(o);
+	}
 });
 })(jQuery);
 
