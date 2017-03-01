@@ -1,5 +1,9 @@
 @charset "utf-8";
-*{margin: 0;padding: 0;border: 0;outline: 0;font:"微软雅黑";}
+html,body,div,spanm,h2,h3,h4,p,a,i,img,small,ol,ul,li,i,center,video{
+	padding:0;
+	margin:0;
+}
+
 html,body{
 	height:100%;
 	width:100%;
@@ -17,8 +21,8 @@ a,a:link,a:hover{
     outline: none;
     text-decoration: none;
 }
-
-
+.row{margin:0;}
+.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{padding:0;}
 /*nav*/
 @media (max-width: 768px){
 .navbar-header {
@@ -379,7 +383,7 @@ section{
 	background-position:-3px -127px;
 }
 .section_right.col-md-5{
-	right:0px;
+	right:-34px;
 }
 .d_content .video .video-paly-btn {
 
@@ -1285,35 +1289,4 @@ margin-bottom:50px;
 	height:40%;
 	overflow:hidden;
 	}
-@media screen and (max-width:680px){
-#wrapper,#top,#right,#left{width:auto !important;float:none}
-#x,#elevator{display:none}
-#top{height:auto;position:static;overflow:hidden;padding-bottom:5px}
-#top div.logo{float:none;margin:0px auto;height:30px}
-#top div.logo img{margin:0px}
-#top .ad{clear:both;float:none;height:auto;margin:0px auto;overflow:auto}
-#top .guider{float:none;margin:0px auto;width:390px;display:none;}
-#topulGuider li{margin:0px;width:65px}
-#autocomplete{margin-top:10px}
-#autocomplete .w7{width:40%}
-#dvBlogDetail img{width:100% !important;height:auto !important;}
-#dvREF li{width:auto}
-#right .dsitem .dsdetails{margin-left:40%}
-#right .dsitem .vpic{width:40%}
-#right .dsitem .vpic img{width:100%}
-#right .dsitem .dsdetails span.time{clear:both;display:block;float:none}
-#right div.attrib span.time{margin-left:0px}
-#right .item .codeattrib{float:none;width:auto;overflow:hidden;margin-bottom:10px}
-#right .item .codeattrib span{float:left;width:170px}
-#right .item .codeattrib span#spScore{float:right}
-#right .item .codeattrib span.time,#right .item .codeattrib span.dltag{padding-left:0px;background-image:none}
-div.ext u{display:block}
-div.postForm{overflow:auto}
-div.head,div.rmk,div.postForm div.postItem,div.postForm div.fr{float:none !important;width:auto !important}
-div.rmk{margin-left:85px}
-#mobile_nav{display:block}
-#top div.logo{width:auto;margin:0px;float:left}
-}
-@media screen and (max-width:400px){#autocomplete .w7{width:30%}#right .blogcontent{margin-top:70px}
-#top .ad{display:none}#top .guider{width:auto;clear:both}}
 
