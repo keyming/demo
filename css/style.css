@@ -3,7 +3,10 @@ html,body,div,spanm,h2,h3,h4,p,a,i,img,small,ol,ul,li,i,center,video{
 	padding:0;
 	margin:0;
 }
-body{
+
+html,body{
+height:100%;
+width:100%;
 	background-image:url(../images/dotamin_bg.png);
 	background-color:#1a1b1f;
 	font-family:"Microsoft YaHei";
@@ -19,7 +22,7 @@ a,a:link,a:hover{
     text-decoration: none;
 }
 /*nav*/
-@media (max-width: 1024px){
+@media (max-width: 768px){
 .navbar-header {
 	 text-align: center;
 	 width: 100%;
@@ -1031,13 +1034,13 @@ section{
 .d_title.map{
 	padding-top:10px;
 }
-@media (max-width: 868px){
+@media (max-width: 768px){
 .row .d-list .col-sm-6>a>span{
 	width:200px;
 }
 
 }
-@media (max-width: 1024px){
+@media (max-width: 768px){
 .row .d-list .col-sm-6>a>img,.row .d-list .col-sm-6>a>span{
 	width:100%;
 	height:100%;
@@ -1227,6 +1230,13 @@ section{
 .list-group-item:hover .d_icon.d_icon_dot{
 	background-position:-3px -814px;	
 }
+@media (min-width: 768px){
+.d_vedio .row .col-sm-4 img,.d_vedio .row .col-sm-4 p{
+	width:20%;
+	text-align:center;
+}
+
+}
 section{
 margin-bottom:50px;
 }
@@ -1273,4 +1283,8 @@ margin-bottom:50px;
 	color:#333;
 }
 
+#footer .row .col-xs-9,#footer .row .col-xs-10{
+	height:40%;
+	overflow:hidden;
+	}
 
