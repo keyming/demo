@@ -1227,6 +1227,13 @@ section{
 .list-group-item:hover .d_icon.d_icon_dot{
 	background-position:-3px -814px;	
 }
+@media (min-width: 768px){
+.d_vedio .row .col-sm-4 img,.d_vedio .row .col-sm-4 p{
+	width:20%;
+	text-align:center;
+}
+
+}
 section{
 margin-bottom:50px;
 }
@@ -1273,4 +1280,8 @@ margin-bottom:50px;
 	color:#333;
 }
 
+#footer .row .col-xs-9,#footer .row .col-xs-10{
+	height:40%;
+	overflow:hidden;
+	}
 
