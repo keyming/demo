@@ -1048,6 +1048,14 @@ section{
 	height:100%;
 }
  }
+@media screen and (max-width: 300px) {
+.section_right.col-md-5 .row .d-list .col-sm-6>a>img{
+	width:100%;
+	height:100%;
+	float:left;
+	margin-right:20px;
+}
+}
   /*vedio*/
 #vedio{
 	  color:#999;
