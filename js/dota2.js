@@ -138,11 +138,11 @@
 				leftSlice = sliceItems.slice(sliceSize);
 			
 			//设置右边帧的位置关系和宽度高度top
-			var firstLeft = (this.setting.width - this.setting.posterWidth)/2;
+			var firstLeft = (this.setting.width - this.setting.posterWidth)/3;
 			var rw = this.setting.posterWidth,
 				fixOffsetLeft = firstLeft + rw,
 				rh = this.setting.posterHeight,
-				gap = ((this.setting.width - this.setting.posterWidth)/2)/level;
+				gap = ((this.setting.width - this.setting.posterWidth)/3)/level;
 			
 			//设置右边位置关系
 			rightSlice.each(function(i){
@@ -184,13 +184,13 @@
 			var verticalType  = this.setting.verticalAlign,
 				top = 0;
 			if(verticalType === "middle"){
-				top = (this.setting.height-height)/2;
+				top = (this.setting.height-height)/3;
 			}else if(verticalType === "top"){
 				top = 0;
 			}else if(verticalType === "bottom"){
 				top = this.setting.height-height;
 			}else{
-				top = (this.setting.height-height)/2;
+				top = (this.setting.height-height)/3;
 			};
 			return top;
 		},
@@ -211,12 +211,12 @@
 			this.nextBtn.css({
 				width:w,
 				height:this.setting.height,
-				zIndex:Math.ceil(this.posterItems.size()/2)
+				zIndex:Math.ceil(this.posterItems.size()/4)
 			});
 			this.prevBtn.css({
 				width:w,
 				height:this.setting.height,
-				zIndex:Math.ceil(this.posterItems.size()/2)
+				zIndex:Math.ceil(this.posterItems.size()/4)
 			});			
 			this.posterFirstItem.css({
 				width:this.setting.posterWidth,
