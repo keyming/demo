@@ -380,28 +380,33 @@ section{
 	border-radius:3px;
 }
 @media (max-width: 768px){
+#news .nav-tabs>li{
+	width:20%;
+}
 #news .nav-tabs>li>a{
-	margin-right:2px;
-	border-radius:none;
-	line-height:0px;
 	font-size:12px;
-	background-color:none;
+	padding:10px 0;
 }
-.section_left .d_recommend .d_msg p{
+#news .nav-tabs>li.active{
 	font-size:13px;
+	padding:11px 0;
 }
+
 .section_left .d_list p{
 	vertical-align:baseline;
 	display:inline;
 	margin-left:-5px;
-	font-size:13px;
-	max-width:560px;
+	font-size:1px;
+	max-width:100%;
 	overflow:hidden;
 	white-space:nowrap;
 	text-overflow:ellipsis;
 	color:#ccc;
 }
-	
+
+.d_list:hover p,.d_list:hover .d_data{	
+	color:#00c0ff;
+}
 }
 .d_icon.d_icon_version{
 	background-position:-3px -127px;
