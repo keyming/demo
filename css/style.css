@@ -384,11 +384,11 @@ section{
 	width:20%;
 }
 #news .nav-tabs>li>a{
-	font-size:7px;
+	font-size:14px;
 	padding:10px 0;
 }
 #news .nav-tabs>li.active{
-	font-size:7px;
+	font-size:14px;
 	padding:11px 0;
 }
 .section_left .d_list{
@@ -401,8 +401,8 @@ section{
 	position:relative;
 	display:inline;
 	margin-left:-5px;
-	font-size:14px;
-	max-width:100px;
+	font-size:12px;
+	max-width:100%;
 	overflow:hidden;
 	white-space:nowrap;
 	color:#ccc;
