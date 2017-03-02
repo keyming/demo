@@ -899,6 +899,9 @@ section{
 	right:0;
 
 }
+.pictureSlider.poster-mai{
+	width:300px;
+}
 .section_right.col-md-5 .poster-main a,.poster-main img{
 	text-align:center;
 	padding-left:-10px;

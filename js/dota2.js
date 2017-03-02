@@ -138,11 +138,11 @@
 				leftSlice = sliceItems.slice(sliceSize);
 			
 			//设置右边帧的位置关系和宽度高度top
-			var firstLeft = (this.setting.width - this.setting.posterWidth)/3;
+			var firstLeft = (this.setting.width - this.setting.posterWidth)/4;
 			var rw = this.setting.posterWidth,
 				fixOffsetLeft = firstLeft + rw,
 				rh = this.setting.posterHeight,
-				gap = ((this.setting.width - this.setting.posterWidth)/3)/level;
+				gap = ((this.setting.width - this.setting.posterWidth)/4)/level;
 			
 			//设置右边位置关系
 			rightSlice.each(function(i){
