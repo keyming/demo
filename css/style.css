@@ -384,15 +384,15 @@ section{
 	width:20%;
 }
 #news .nav-tabs>li>a{
-	font-size:12px;
+	font-size:7px;
 	padding:10px 0;
 }
 #news .nav-tabs>li.active{
-	font-size:13px;
+	font-size:7px;
 	padding:11px 0;
 }
 
-.section_left .d_list p{
+.section_left .d_list{
 	vertical-align:baseline;
 	display:inline;
 	margin-left:-5px;
