@@ -906,7 +906,7 @@ section{
 	display:inline-block;
 }
 .section_right.col-md-5 .poster-main .poster-next{
-	display:block;
+	display:none;
 }
 
 }
