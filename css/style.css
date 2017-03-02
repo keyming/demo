@@ -379,6 +379,30 @@ section{
 	background-color:rgba(0,0,0,0.1);
 	border-radius:3px;
 }
+@media (max-width: 768px){
+#news .nav-tabs>li>a{
+	margin-right:2px;
+	border-radius:none;
+	line-height:0px;
+	font-size:12px;
+	background-color:none;
+}
+.section_left .d_recommend .d_msg p{
+	font-size:13px;
+}
+.section_left .d_list p{
+	vertical-align:baseline;
+	display:inline;
+	margin-left:-5px;
+	font-size:13px;
+	max-width:560px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	color:#ccc;
+}
+	
+}
 .d_icon.d_icon_version{
 	background-position:-3px -127px;
 }
@@ -933,7 +957,7 @@ section{
 }
 .item .col-sm-5{
 	z-index:2;
-	width:46%;
+	width:45%;
 	margin-bottom:10px;	
 	margin-left:15px;
 }
