@@ -901,7 +901,7 @@ section{
 }
 .section_right.col-md-5 .poster-main a,.poster-main img{
 	text-align:center;
-	padding-left:0px;
+	padding-left:-10px;
 	padding-top:20px;
 	display:inline-block;
 }
@@ -1058,6 +1058,7 @@ section{
 }
 
 }
+.poster-main .poster-btn{ position:absolute;top:0;width:10px;height:20px; z-index:20; cursor:pointer;  opacity:1;}
 @media (max-width: 768px){
 .row .d-list .col-sm-6>a>img,.row .d-list .col-sm-6>a>span{
 	width:100%;
