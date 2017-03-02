@@ -902,12 +902,13 @@ section{
 
 .section_right.col-md-5 .poster-main a,.poster-main img{
 	text-align:center;
-	margin-left:-30px;
+	margin-left:-60px;
 	padding-top:20px;
 	display:inline-block;
 }
 .section_right.col-md-5 .poster-main a,.poster-main span{
-	margin-left:-30px;
+
+	margin-left:-60px;
 }
 .section_right.col-md-5 .poster-main .poster-next{
 	display:none;
