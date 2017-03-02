@@ -205,9 +205,9 @@
 				width:this.setting.width,
 				height:this.setting.height
 			});
-			//计算上下切换按钮的宽度
+			
 			var w = (this.setting.width-this.setting.posterWidth)/2;
-			//设置切换按钮的宽高，层级关系
+	
 			this.nextBtn.css({
 				width:w,
 				height:this.setting.height,
