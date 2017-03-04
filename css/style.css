@@ -936,13 +936,13 @@ section{
 
 .section_right.col-md-5 .poster-main a,.poster-main img{
 	text-align:center;
-	margin-left:-60px;
+	margin-left:-80px;
 	padding-top:20px;
 	display:inline-block;
 }
 .section_right.col-md-5 .poster-main a,.poster-main span{
 
-	margin-left:-60px;
+	margin-left:-80px;
 }
 .section_right.col-md-5 .poster-main .poster-next{
 	display:none;
