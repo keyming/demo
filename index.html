@@ -1,897 +1,305 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>DOTA2demo</title>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+	<title>个人网页</title>
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet"  href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/style.css">
 	<!--[if lt IE 9]>
       <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//cd	n.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-<nav class="navbar navbar-inverse">
-	<div class="container">
-            <div class="navbar-header navbar-heading page-scroll">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top">
-						<span class="sr-only">Toggle</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>                
-                    <a title="dota2" class="nav_log navbar-brand page-scroll" href="#"></a>
-            </div>
-            <div class="collapse navbar-collapse menu" id="top">
-        	<ul class="nav navbar-nav main-menu">
-            	<li>
-                	<a href="#">
-                    	<span>首页</span></br>
-                        <span class="link_nav_e">HOME</span>
-                    </a>
-                    <ul class="sub-menu">
-                    	<li><a href="#">品牌网站</a></li>
-                        <li><a href="#">个人中心</a></li>
-                        <li><a href="#">神秘商店</a></li>
-                        <li><a href="#">玩家工坊</a></li>
-                    </ul>
-                </li>            	
-                <li>
-                	<a href="#">
-                    	<span>资讯</span></br>
-                        <span class="link_nav_e">NEWS</span>
-                    </a>
-                    <ul class="sub-menu">
-                    	<li><a href="#">官方新闻</a></li>
-                        <li><a href="#">赛事新闻</a></li>
-                        <li><a href="#">更新日志</a></li>
-                        <li><a href="#">游戏攻略</a></li>
-                    </ul>
-                </li>
-            	<li>
-                	<a href="#">
-                          <span>赛事</span></br> 
-                          <span class="link_nav_e">MATCH</span>
-                     </a>
-                    <ul class="sub-menu">
-                    	<li><a href="#">赛事中心</a></li>
-                        <li><a href="#">活动中心</a></li>
-                    </ul>
-                </li>
-            	<li>
-                	<a href="#">
-                    	<span>资料</span></br>
-                        <span class="link_nav_e">DATA</span>
-                    </a>
-                    <ul class="sub-menu">
-                    	<li><a href="#">英雄资料</a></li>
-                        <li><a href="#">物品资料</a></li>
-                        <li><a href="#">视频中心</a></li>
-                        <li><a href="#">之定义地图</a></li>
-                        <li><a href="#">新手引导</a></li>
-                    </ul>
-                </li>
-            	<li>
-                	<a href="#">
-                    	<span>服务</span>
-                        <span class="link_nav_e">SERVICE</span>
-                    </a>
-                    <ul class="sub-menu">
-                    	<li><a href="#">客服中心</a></li>
-                        <li><a href="#">官方论坛</a></li>
-                        <li><a href="#">新浪微博</a></li>
-                        <li><a href="#">网吧特权</a></li>
-                        <li><a href="#">通行证查询</a></li>
-                    </ul>
-                </li>  
-            	<li>
-                	<a href="#">
-                    	<span>下载</span></br>
-                        <span class="link_nav_e">DOWN</span>
-                    </a>
-                    <ul class="sub-menu">
-                    	<li><a href="#">游戏下载</a></li>
-                        <li><a href="#">刀塔助手</a></li>
-                        <li><a href="#">精美壁纸</a></li>
-                        <li><a href="#">官方漫画</a></li>
-                    </ul>
-                </li>                                
-            </ul>
-            <div class="dotauser navbar-right">
-                <i class="glyphicon glyphicon-user"></i>
-                <div class="btn">
-                    您好,请&nbsp;<a href="javascript:;">登录</a>
-                </div>
-             </div>
-    	</div>
-     </div>   
-</nav>
-<header>
-	<div id="myCarousel" class="carousel slide">
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-		</ol>
-		   <div class="carousel-inner">
-        	<div class="item active">
-					<img src="http://img.dota2.com.cn/maps/7e/55/7e55796652cfe428b58ea962c58215da1484035239.jpg">            
+<body>
+	<nav class="navbar navbar-custom  navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top">
+						Menu
+					</button>
+					<p class="navbar-brand">个人简历</p>
+				</div>
+				<div class="collapse navbar-collapse navbar-right" id="top">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#hidden">首页</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">详细<span class="caret"></span></a>
+							<ul class="dropdown-menu dropdown-menu-left">
+								<li><a href="#AboutMe">关于我</a></li>
+								<li><a href="#Skill">专业技能</a></li>
+								<li><a href="#Resume">个人简历</a></li>
+								<li><a href="#Demo">作品Demo</a></li>
+							</ul>
+						</li>
+						<li><a href="#Contact">联系我</a></li>
+					</ul>
+				</div>
 			</div>
-            <div class="item">
-            	<img src="http://img.dota2.com.cn/maps/5d/7f/5d7f7697d349d47dfa5518fd11a49a621485159509.jpg"/>
-            </div>
-            <div class="item">
-            	<img src="http://img.dota2.com.cn/maps/72/21/7221c15ae8830f3aa321a7af58e4ca201487935878.jpg"/>
-            </div>
-        </div>
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
-    </div>
-</header>
-<section>
-	<div class="container">
-    	<div class="row">
-            <div class="col-xs-8 left_btn">
-                <a href="#" class="btn btn_recharge">
-                    <span></span>
-                </a>
-                <a href="#" class="btn btn_download">
-                    <span></span>
-                </a>        	
-                <a href="#" class="btn btn_signup">
-                    <span></span>
-                </a>            
-            </div>
-            <div class="right_btn">
-                <a href="#" class="btn btn_source">
-                    <span></span>
-                </a>
-                <a href="#" class="btn btn_steps">
-                    <span></span>
-                </a>
-                <a href="#" class="btn btn_min">
-                    <span></span>
-                </a>
-            </div>
-      </div>
-    </div>
-</section>
-<section id="news">
-	<div class="container">
-    	<div class="section_left col-md-7">
-        	<div class="d_title">
-            	<div class="d_left">
-                	<i class="d_icon d_icon_news"></i>
-                    <span>新闻</span>
-                </div>                <div class="d_right">
-
-                    <span>更多</span>
-                    <i class="d_icon d_icon_more"></i>
-                </div>
-            </div>
-            <div class="d_content">
-            	<ul class="nav nav-tabs ">
-                	<li class="active"><a href="#Genaral" data-toggle="tab">综合新闻</a></li>
-                    <li><a href="#Dota1" data-toggle="tab">官方新闻</a></li>
-                    <li><a href="#Contest" data-toggle="tab">赛事新闻</a></li>
-                    <li><a href="#Update" data-toggle="tab">更新日志</a></li>
-                    <li><a href="#Media" data-toggle="tab">媒体资讯</a></li>
-                   <div class="tab-content d_tabs">
-                	<div class="tab-pane fade in active d_tab" id="Genaral">
-                    	<div class="d_lists">
-          					<a class="d_recommend" href="#">
-                                 <h3>DOTA2 2月9日更新日志：7.02游戏性</h3>
-                                 <div class="d_contents">
-                                 	<div class="d_item">
-                                    	<img src="http://img.dota2.com.cn/dota2/1e/05/1e05ed210380742885e3e63bb4e9c5d11487936607.jpg"/>                                    
-									</div>
-                                    <div class="d_msg">
-                                    	<p>2017基辅特级锦标赛马上就要来临，本次比赛仍会在全世界范围公开选拔喜爱DOTA2的玩家及战队。</p>
-                                        <span class="d_data">2017-02-09</span>                                   
-									</div>
-                                 </div>
-                            </a>
-                            <a class="d_list d_black" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>2017亚洲邀请赛非中国赛区分组对阵公布线</p>
-                                <span class="d_data ">2017-01-24</span>                            
-							</a>
-                             <a class="d_list d_black" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>2017亚洲邀请赛非中国赛区分组对阵公布</p>
-                                <span class="d_data">2017-01-24</span>                            
-							</a>
-                            <a class="d_list d_black" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>2017亚洲邀请赛非中国赛区分组对阵公布</p>
-                                <span class="d_data">2017-01-24</span>                            
-							</a>
-                            <a class="d_list d_black" href="#">
-                            	<i class="d_icon  d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon  d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>                        
+	</nav>
+    <header id="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">我叫陆东明</h1>
+                        <p class="intro-text">想成为一名优秀的前端工程师<br/>
+							人生就是一段没有回头的道路，能做的只有努力向前</p>
+                      	<a href="#AboutMe" class="btn btn-circle page-scroll">
+                          <i class="fa fa-angle-double-down animated"></i>						
+						 </a>					
 						</div>
-                    </div>
-					<div class="tab-pane fade d_tab" id="Dota1">
-                    	<div class="d_lists">
-          					<a class="d_recommend" href="#">
-                                 <h3>DOTA2 2月9日更新日志：7.02游戏性</h3>
-                                 <div class="d_contents">
-                                 	<div class="d_item">
-                                    	<img src="http://img.dota2.com.cn/dota2/4a/34/4a348628b67cc98ee32bd7ba728b83d71486621903.jpg"/>                                    </div>
-                                    <div class="d_msg">
-                                    	<p>DOTA2 2月9日更新日志：7.02游戏更新</p>
-                                        <span class="d_data">2017-02-09</span>                                    
-									</div>
-                                 </div>
-                            </a>
-                            <a class="d_list d_black" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>2017亚洲邀请赛非中国赛区分组对阵公布线</p>
-                                <span class="d_data ">2017-01-24</span>                            
-							</a>
-                             <a class="d_list d_black" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>2017亚洲邀请赛非中国赛区分组对阵公布</p>
-                                <span class="d_data">2017-01-24</span>                            
-							</a>
-                            <a class="d_list d_black" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>2017亚洲邀请赛非中国赛区分组对阵公布</p>
-                                <span class="d_data">2017-01-24</span>                            
-							</a>
-                            <a class="d_list d_black" href="#">
-                            	<i class="d_icon  d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon  d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>                        
-						</div>
-                    </div>
-					<div class="tab-pane fade in active d_tab" id="Contest">
-                    	<div class="d_lists">
-          					<a class="d_recommend" href="#">
-                                 <h3>DOTA2 2月9日更新日志：7.02游戏性</h3>
-                                 <div class="d_contents">
-                                 	<div class="d_item">
-                                    	<img src="http://img.dota2.com.cn/maps/72/21/7221c15ae8830f3aa321a7af58e4ca201487935878.jpg"/>                                    
-										</div>
-                                    <div class="d_msg">
-                                    	<p>2017基辅特级锦标赛马上就要来临，本次比赛仍会在全世界范围公开选拔喜爱DOTA2的玩家及战队。</p>
-                                        <span class="d_data">2017-02-09</span>                                    
-									</div>
-                                 </div>
-                            </a>
-                            <a class="d_list d_black" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>2017亚洲邀请赛非中国赛区分组对阵公布线</p>
-                                <span class="d_data ">2017-01-24</span>                            
-							</a>
-                             <a class="d_list d_black" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>2017亚洲邀请赛非中国赛区分组对阵公布</p>
-                                <span class="d_data">2017-01-24</span>                            
-							</a>
-                            <a class="d_list d_black" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>2017亚洲邀请赛非中国赛区分组对阵公布</p>
-                                <span class="d_data">2017-01-24</span>                            
-							</a>
-                            <a class="d_list d_black" href="#">
-                            	<i class="d_icon  d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon  d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>                        
-						</div>
-                    </div>
-					<div class="tab-pane fade in active d_tab" id="Update">
-                    	<div class="d_lists">
-          					<a class="d_recommend" href="#">
-                                 <h3>DOTA2 2月9日更新日志：7.02游戏性</h3>
-                                 <div class="d_contents">
-                                 	<div class="d_item">
-                                    	<img src="http://img.dota2.com.cn/dota2/4a/34/4a348628b67cc98ee32bd7ba728b83d71486621903.jpg"/>                                    </div>
-                                    <div class="d_msg">
-                                    	<p>DOTA2 2月9日更新日志：7.02游戏更新</p>
-                                        <span class="d_data">2017-02-09</span>                                    
-									</div>
-                                 </div>
-                            </a>
-                            <a class="d_list d_black" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>2017亚洲邀请赛非中国赛区分组对阵公布线</p>
-                                <span class="d_data ">2017-01-24</span>                            
-							</a>
-                             <a class="d_list d_black" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>2017亚洲邀请赛非中国赛区分组对阵公布</p>
-                                <span class="d_data">2017-01-24</span>                            
-							</a>
-                            <a class="d_list d_black" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon d_icon_dot"></i>
-                            	<p>2017亚洲邀请赛非中国赛区分组对阵公布</p>
-                                <span class="d_data">2017-01-24</span>                            
-							</a>
-                            <a class="d_list d_black" href="#">
-                            	<i class="d_icon  d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>
-                            <a class="d_list" href="#">
-                            	<i class="d_icon  d_icon_dot"></i>
-                            	<p>新春特别活动：按月来袭2017冬季珍藏I上线</p>
-                                <span class="d_data">2017-01-27</span>                            
-							</a>                        
-						</div>
-                    </div>          
-                  </div>
-                </ul>
-           </div> 
-        </div>
-        <div class="section_right col-md-5">
-        	<div class="d_title">
-            	<div class="d_left">
-                	<i class="d_icon d_icon_version"></i>
-                    <span>最新内容</span>
-                </div>
-                <div class="d_right">
-                    <span>更多</span>
-                    <i class="d_icon d_icon_more"></i>
-                </div>
-            </div>
-            <div class="d_content">
-				<video  controls="controls" autoplay="autoplay">
-				 <source src="images/video/countdown.mp4" type="video/mp4">
-				</video>
-                <div class="new-travel">
-                	<div class="version-box">
-                    	<a href="#" class="version-newest">
-                        	<h2 class="title title01">新游记</h2>
-                            <h2 class="title title02">在出发</h2>
-                        </a>
-                        <div class="d_version version-pic1">
-                        	<img src="images/pic1.jpg">                        
-						</div>
-                         <div class="d_version version-pic2">
-                        	<img src="images/pic2.jpg">                        
-						</div>
-                        <div class="d_version version-pic3">
-                        	<img src="images/pic3.jpg">                       
-						</div>
-                        <div class="d_version version-pic4">
-                        	<img src="images/pic4.jpg">                       
-						</div>
-                         <div class="d_version version-pic5">
-                        	<img src="images/pic5.jpg">                        
-						</div>
-                        <div class="d_version version-pic6">
-                        	<img src="images/pic6.jpg">                       							
-						</div>
-                        <div class="d_version version-pic7">
-                        	<img src="images/pic7.jpg">                        
-						</div>
-                         <div class="d_version version-pic8">
-                        	<img src="images/pic8.jpg">                       
-						</div>
-                        <div class="d_version version-pic9">
-                        	<img src="images/pic9.jpg">                        
-						</div>                        
-                        <div class="d_version version-pic10">
-                        	<img src="images/pic10.jpg">                        
-						</div>                                                
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section id="Promotion">
-	<div class="container">
-    	<div class="section_left col-md-7">
-        	<div class="d_title">
-            	<div class="d_left">
-                	<i class="d_icon d_icon_activity"></i>
-                    <span>活动中心</span>
-                </div>
-                <div class="d_right">
-                    <span>更多</span>
-                    <i class="d_icon d_icon_more"></i>
-                </div>
-            </div>
-            <div class="d_content">
-				<div id="page-slide" class="carousel slide">
-                	<ol class="carousel-indicators">
-                    	<li data-target="#page-slide" data-slide-to="0" class="active"></li>
-                        <li data-target="#page-slide" data-slide-to="1"></li>
-                    </ol>
-                	   <div class="carousel-inner">
-        					<div class="item active text-center">
-                            	<div class="row">
-                        			<div class="col-sm-5 col-xs-5">
-                                    		<a href="#">
-                            						<img class="img-responsive" src="images/panle1.jpg">
-                                            		<p>我的2016守卫遗迹故</p>
-                                             </a>
-                           			 </div>
-                        			<div class="col-sm-5 col-xs-5">
-                                    		<a href="#">
-                            					<img class="img-responsive" src="images/panel2.jpg">
-                                           	 	<p>我的2016守卫遗迹故</p>
-                                            </a>
-                                        </div>    
-                             			<div class="col-sm-5 col-xs-5">
-                                    		<a href="#">
-                            					<img class="img-responsive" src="images/panel2.jpg">
-                                            	<p>我的2016守卫遗迹故</p>
-                                            </a>
-                           			 </div>
-                        			<div class="col-sm-5 col-xs-5">
-                                    		<a href="#">
-                            					<img class="img-responsive" src="images/panel2.jpg">
-                                            	<p>我的2016守卫遗迹故</p>
-                                            </a>
-                           			 </div>                      	
-
-                            	</div>
-                        </div>
-        				<div class="item text-center">
-                            	<div class="row">
-                        			<div class="col-sm-5 col-xs-5">
-                                    		<a href="#">
-                            						<img class="img-responsive" src="images/panle1.jpg">
-                                            		<p>我的2016守卫遗迹故</p>
-                                             </a>
-                           			 </div>
-                        			<div class="col-sm-5 col-xs-5">
-                                    		<a href="#">
-                            					<img class="img-responsive" src="images/panel2.jpg">
-                                           	 	<p>我的2016守卫遗迹故</p>
-                                            </a>
-                                        </div>    
-                             			<div class="col-sm-5 col-xs-5">
-                                    		<a href="#">
-                            					<img class="img-responsive" src="images/panel2.jpg">
-                                            	<p>我的2016守卫遗迹故</p>
-                                            </a>
-                           			 </div>
-                        			<div class="col-sm-5 col-xs-5">
-                                    		<a href="#">
-                            					<img class="img-responsive" src="images/panel2.jpg">
-                                            	<p>我的2016守卫遗迹故</p>
-                                            </a>
-                           			 </div>                      	
-
-                            	</div>
-                        </div>
-                    </div>
-                        <a class="carousel-control hidden-xs left"  href="#page-slide" data-slide="prev"></a>
-                        <a class="carousel-control hidden-xs right" href="#page-slide" data-slide="next"></a>
-                </div>
-           </div>
-           </div>
-            <div class="section_right col-md-5">
-            	<div class="d_title">
-                	<div class="d_left">
-                    	<i class="d_icon d_icon_games"></i>
-                        <span>最新赛事</span>
-                    </div>
-                    <div class="d_right">
-                    	<span>更多</span>
-                        <i class="d_icon d_icon_more"></i>
-                    </div>
-                </div>
-                <div class="d_content d_poster">
-                    <div class="pictureSlider poster-main col-sm-5" data-setting='{"width":410,"height":230,"posterWidth":320,"posterHeight":360,"scale":0.8,"autoPlay":true,"delay":2000,"speed":300}'>
-                        <a class="poster_btn poster-prev"></a>
-                        <ul class="poster-list">
-                            <li class="poster-item ">
-                                <a href="#">
-                                    <img src="images/games2.jpg" >
-                                    <span>波士顿特级锦标赛</span>
-                                </a>
-                            </li>
-                            <li class="poster-item ">
-                            	<a href="#">
-                               	 <img src="images/games3.png">
-                                 <span>中国DOTA2职业联赛</span>
-                                </a>
-                             </li>
-                            <li class="poster-item">
-                                <a href="#">
-                                    <img src="images/games2.jpg" >
-                                    <span>波士顿特级锦标赛</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <a class="poster_btn poster-next"></a>
-                    </div>
-                </div>
-            	<div class="d_title map">
-                	<div class="d_left">
-                    	<i class="d_icon d_icon_map"></i>
-                        <span>自定义地图</span>
-                    </div>
-                    <div class="d_right">
-                    	<span>更多</span
-                        ><i class="d_icon d_icon_more"></i>
-                    </div>
-                </div>
-                <div class="row">        
-               	    <ul class="d-list">
-						<div class="col-sm-5 col-xs-5 poster-item">
-							<a href="#">
-								<img class="img-responsive" src="images/Duel.jpg">
-								   <span>Snipers Duel（决斗）</span>
-							  </a>
-							</div>
-							<div class="col-sm-5 col-xs-5 poster-item">
-							  <a href="#">
-								<img class="img-responsive" src="images/LEVEL25.jpg">
-								 <span>LEVLE25</span>
-							   </a>
-						 </div>
-                	</ul>
-                </div>                
-            </div>
-    </div>
-</section>
-<section id="vedio">
-	<div class="container">
-    	<div class="section_left col-md-7">
-        	<div class="d_title">
-            	<div class="d_left">
-                	<i class="d_icon d_icon_vedio"></i>
-                    <span>新闻</span>
-                </div>       
-                <div class="d_right">
-                    <span>更多</span>
-                    <i class="d_icon d_icon_more"></i>
-                </div>
-            </div>
-            <div class="d_content">
-            	<ul id="myTab"  class="nav nav-tabs">
-    				<li class="active"><a href="#new" data-toggle="tab">最新视频</a></li>
-    				<li><a href="#Dota" data-toggle="tab">官方视频</a></li>
-                    <li><a href="#Compete" data-toggle="tab">比赛视频</a></li>
-                    <li><a href="#Wership" data-toggle="tab">战舰视频</a></li>
-					<div id="myTabContent" class="tab-content">  
-                     <div class="tab-pane fade in active" id="new">
-                       <div class="col-sm-4 col-xs-3">
-                            <a href="#">		
-                                <img src="images/evdio1.png">
-                                <p>E周发布第一期：EHOME DOTA2各战队近况</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio2.jpg">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio2.jpg">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio1.png">
-                                <p>E周发布第一期：EHOME DOTA2各战队近况</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio2.jpg">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio2.jpg">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>                     
-  						</div>
-                     <div class="tab-pane fade"  id="Dota">
-                           <div class="col-sm-4 col-xs-4">
-                            <a href="#">		
-                                <img src="images/evdio1.png">
-                                <p>E周发布第一期：EHOME DOTA2各战队近况</p>
-                            </a>
-                        </div>
-                       <div class="col-sm-4 col-xs-4">
-                            <a href="#">		
-                                <img src="images/evdio1.png">
-                                <p>E周发布第一期：EHOME DOTA2各战队近况</p>
-                            </a>
-                        </div>
-                       <div class="col-sm-4 col-xs-4">
-                            <a href="#">		
-                                <img src="images/evdio1.png">
-                                <p>E周发布第一期：EHOME DOTA2各战队近况</p>
-                            </a>
-                        </div>                        
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio1.png">
-                                <p>E周发布第一期：EHOME DOTA2各战队近况</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio2.jpg">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio2.jpg">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>                                 
-                     </div>
-                     <div class="tab-pane fade" id="Compete">
-                       <div class="col-sm-4 col-xs-4">
-                            <a href="#">		
-                                <img src="images/evdio1.png">
-                                <p>E周发布第一期：EHOME DOTA2各战队近况</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio2.jpg">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio2.jpg">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio1.png">
-                                <p>E周发布第一期：EHOME DOTA2各战队近况</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio2.jpg">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio2.jpg">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>                     
-  						</div>
-                     <div class="tab-pane fade" id="Wership">
-                       <div class="col-sm-4 col-xs-4">
-                            <a href="#">		
-                                <img src="images/evdio1.png">
-                                <p>E周发布第一期：EHOME DOTA2各战队近况</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio1.png">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio1.png">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio1.png">
-                                <p>E周发布第一期：EHOME DOTA2各战队近况</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio1.png">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-xs-4">
-                            <a href="#">
-                                <img src="images/evdio1.png">
-                                <p>一天刀一把系列:4小时超级膀胱局 圣剑满地捡</p>
-                            </a>
-                        </div>                     
-  						</div>                                             
-                   </div>                    
-               </ul>
-            </div>
-         </div>   
-         <div class="section_right col-md-5">
-            <div class="d_title">
-                	<div class="d_left">
-                    	<i class="d_icon d_icon_call"></i>
-                        <span>客服中心</span>
-                    </div>
-                    <div class="d_right">
-                    	<span>更多</span>
-                        <i class="d_icon d_icon_more"></i>
-                    </div>
-               </div>
-            <div class="d_content">
-            	<div class="input-group">
-                	<input type="text"  placeholder="输入您的问题" class="form-control input-lg"><span class="input-group-addon btn btn-primary">搜索</span><a href="#" class="input-group-addon btn btn-default btn-lg active">我要提问</a>
-               	</div>
-                <div class="tab-content">
-                <h4 class="">常见问题</h4>
-                <ul class="list-group">
-             		<li class="list-group-item list-red">
-                   		 <a href="#">
-                         <i class="d_icon d_icon_dot "></i>
-                         如何找回与DOTA2账户绑定的完美通行证？
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">
-                        <i class="d_icon d_icon_dot "></i>
-                        为什么我需要注册两个账号？
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">
-                        <i class="d_icon d_icon_dot "></i>
-                        如何注册DOTA2账号？
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">
-                        <i class="d_icon d_icon_dot "></i>
-                        如何绑定完美通行证（完美电竞账号）？
-                        </a>
-                    </li>
-             		<li class="list-group-item">
-                   		 <a href="#">
-                        <i class="d_icon d_icon_dot "></i>
-                         如何找回与DOTA2账户绑定的完美通行证？
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">
-                        <i class="d_icon d_icon_dot "></i>
-                        为什么我需要注册两个账号？
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">
-                        <i class="d_icon d_icon_dot "></i>
-                        如何注册DOTA2账号？
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">
-                        <i class="d_icon d_icon_dot "></i>                        
-                        如何绑定完美通行证（完美电竞账号）？
-                        </a>
-                    </li>
-                </ul>
-                </div>
-            </div>
-        </div>   
-   </div>
-</section>
-<footer id="footer" class="top-space">
-	<div class="container">
-    	<div class="row">
-        	<div class="col-lg-4  col-xs-4 widget">
-            	<div class="widget-body">
-                	<a href="#" class="wanmei">
-                    	<img src="images/logo-wanmei.png">
-                    </a>
-                    <a href="#" class="valve">
-                    	<img src="images/logo-valve.png">
-                    </a>
-            </div>
-        </div>
-        <div class="col-lg-10 col-xs-10">
-                	<p">完美世界（北京）网络技术有限公司 版权所有 Copyright © 2012-2017 Perfect World Co., Ltd. All Rights reserved<br/>
-                    ©2012 Valve Corporation. All Rights reserved. Licensed to Perfect World Co., Ltd. in China</p>
-
-        </div>
-         <div class="col-lg-9 col-xs-9">
-            	<p>京ICP证：050016号《网络文化经营许可证》编号：京网文[2011]0782-287号 《网络视听许可证》编号：0110587</p>
-                <p>京公网安备110105019888号 文网进字[2013] 028号 新出审字[2013] 1505号 ISBN：978-7-89989-826-0</p>
-        </div>
-    </div>
-  </div> 
-</footer>  
-    <script src="bootstrap/js/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/jquery-1.12.0.min.js"></script>
-	<script src="js/dota2.js"></script>
-</body>
-
+    </header>		
+	<section id="AboutMe">
+			<div class="container">
+				<br/>
+				<h2>关于我</h2>
+				<div class="row">
+					<div class="col-md-2" id="Am1">
+						<div class="img-box">
+							<img src="images/about1.png" alt="education">
+						</div>
+						<p>学历：大专</p>
+					</div>
+					<div class="col-md-2 col-md-offset-1" id="Am2">
+						<span id="Am-tip" class="label label-warning">click me!</span>
+						<div class="img-box">
+							<img src="images/about2.png" alt="age">
+						</div>
+						<p>年龄：27岁</p>
+				  </div>
+					<div class="col-md-2 col-md-offset-1" id="Am3">
+						<div class="img-box">
+							<img src="images/about3.png" alt="location">
+						</div>
+						<p>坐标:贵阳</p>
+					</div>
+					<div class="col-md-2 col-md-offset-1" id="Am4">
+						<div class="img-box">
+							<img src="images/about4.png" alt="state">
+						</div>
+						<p>状态:离职</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="Skill">
+		<div class="container">
+			<hr />
+			<br />
+			<h2>专业技能</h2>
+			<div id="skill_level">
+				<div class="level" style="border-right:1px solid #ccc">
+					<p>精通</p>
+				</div>
+				<div class="level">
+					<p>熟练</p>
+				</div>
+				<div class="level">
+					<p>掌握</p>
+				</div>
+				<div class="level">
+					<p>了解</p>
+				</div>
+				<div class="level" id="level_title">
+					<p>等级</p>
+				</div>
+			</div>
+			<ul id="skill_name">
+				<li id="0">HTML</li>
+				<li id="1">CSS+DIV</li>
+				<li id="2">JavaScript</li>
+				<li id="3">jQuery</li>
+				<li id="4">Bootstrap</li>
+				<li id="5">AngularJS</li>
+				<li id="6">HTML5</li>
+				<li id="7">CSS3</li>
+				<li id="8">Ajax</li>
+			</ul>
+			<ul id="skill_level_bar">
+				<li id="0_bar">
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</li>
+				<li id="1_bar">
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</li>
+				<li id="2_bar">
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</li>
+				<li id="3_bar">
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</li>
+				<li id="4_bar">
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</li>
+				<li id="5_bar">
+					<div class="progress">
+						<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</li>
+				<li id="6_bar">
+					<div class="progress">
+						<div class="progress-bar  progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</li>
+				<li id="7_bar">
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</li>
+				<li id="8_bar">
+					<div class="progress">
+						<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="Resume">
+		<div class="container">
+			<hr />
+			<br />
+			<h2>个人经历</h2>
+			<div class="row">
+				<div id="banner" class="carousel slide">
+			        <ol class="carousel-indicators">
+			        	<li data-target="#banner" data-slide-to="0" class="active"></li>
+			           	<li data-target="#banner" data-slide-to="1"></li>
+			           	<li data-target="#banner" data-slide-to="2"></li>
+			           	<li data-target="#banner" data-slide-to="3"></li>
+			        </ol>
+			        <div class="carousel-inner">
+			        	<div class="item active">
+			            	<img src="images/banner_bg.png" alt="">
+			                <div class="carousel-caption">
+			                  	<h2>陕西师范大学</h2>
+		                    	<p>2010年9月-2012年6月</p>
+		                    	<ul>
+		                    		<li>就读计算机科学与技术学院网络工程系</li>
+		                    		<li>获得中级网络工程师证书</li>
+		                    	</ul>
+			                </div>
+			            </div>
+			            <div class="item">
+			                <img src="images/banner_bg.png" alt="">
+			                <div class="carousel-caption">
+			                   <h2>昆山兴天下智能有限公司</h2>
+		                    	<p>2012年5月-2013年12月</p>
+		                    	<ul>
+		                        	<li>负责PIC线路板焊接</li>
+		                        	<li>简单编写单片机代码调式工作</li>
+									<li>负责工程项目上家具智能开关控制模块代码修改编写与程序植入</li>
+		                    	</ul>	
+			                </div>
+			            </div>
+			            <div class="item">
+			            	<img src="images/banner_bg.png" alt="">
+			                <div class="carousel-caption">
+			                  	<h2>泰坦科技(贵阳分公司)</h2>
+		                    	<p>2013年3月-2015年8月</p>
+		                    	<ul>
+		                    		<li>负责维护项目上数据移交存储</li>
+		                        	<li>数据库脚本编写</li>
+		                    	</ul>
+			                </div>
+			            </div>
+			            <div class="item">
+			            	<img src="images/banner_bg.png" alt="">
+			                <div class="carousel-caption">
+			                  	<h2>瑞福科技有限公司</h2>
+		                    	<p>2015年10月-2016年12月</p>
+		                    	<ul>
+		                    		<li>据UI设计图完成公司项目web前端网页编写</li>
+		                        	<li>使用前端制作工具搭建页面，div+css 制作，实现页面的代码化</li>
+		                        	<li>实现项目前端页面交互效果</li>
+		                        	<li>配合后端开发人员调试页面样式和交互功能</li>
+		                    	</ul>
+			                </div>
+			            </div>
+			      </div>
+			        <a class="left carousel-control" href="#banner" data-slide="prev">
+			        	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    					<span class="sr-only">Previous</span>
+			        </a>
+			        <a class="right carousel-control" href="#banner" data-slide="next">
+			        	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    					<span class="sr-only">Next</span>
+			        </a>
+			    </div>
+			</div>
+		</div>
+	</section>
+	<section id="Demo">
+		<div class="container">
+			<hr />
+			<br />
+			<h2>个人作品</h2>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="panel panel-gray">
+						<div class="panel-heading">DOTA2官网</div>
+						<div class="panel-body">
+							<a href="demo/Dota2/index.html" class="thumbnail">
+							    <img src="images/demo1.png" alt="DOTA2官网" title="DOTA2官网" />
+							</a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<section id="Contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<img src="images/send.png">
+					<h2>您可以通过这些方式联系我</h2>
+				</div>
+				<div class="col-md-4 col-md-offset-2" id="Contact-body">
+					<div class="clearfix">
+						<img src="images/QQ.png" alt="QQ">
+						<p class="Contact-title">QQ：343290019</p>
+					</div>
+					<div class="clearfix">
+						<img src="images/email.png" alt="email">
+						<p class="Contact-title">E-mail:dongminglugit@hotmail.com</p>
+					</div>
+					<div class="clearfix">
+						<img src="images/phone.png" alt="phone">
+						<p class="Contact-title">手机：18684102204</p>
+					</div>
+					<div class="clearfix">
+						<img src="images/wechat.png" alt="wechat">
+						<p class="Contact-title">微信号：18684102204</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-offset-1" id="code">
+					<img src="images/code.png" alt="code">
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="bootstrap/js/jquery-1.9.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/ad.js"></script>
+	</body>
 </html>
