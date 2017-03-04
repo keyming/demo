@@ -136,7 +136,8 @@ header{
 	top:0;
 	left:0;
 	min-width:100%;
-	height:650px;
+	height:100%;
+	background-size:100% 100%;
 }
 #myCarousel a{
 	top:300px;
