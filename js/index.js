@@ -1,12 +1,6 @@
 $(function(){
 	setTimeout(onWidthChange,10);
-	$("header .nav li").hover(function(){
-		$(this).addClass("active");
-	},function(){
-		$(this).removeClass("active");
-	});
-
-
+	/*AboutMe*/
 	$("#Am2").hover(function(){
 		$("#Am-tip").show();
 	},function(){
@@ -42,3 +36,4 @@ function onWidthChange(){
 
 
 }
+

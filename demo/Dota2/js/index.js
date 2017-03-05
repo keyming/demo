@@ -20,7 +20,7 @@
 			"width" : 100,			//幻灯片的宽度
 			"height" : 270,			//幻灯片的高度
 			"posterWidth" : 460,	//幻灯片第一帧的宽度
-			"posterHeight" : 270,	//幻灯片第一帧的高度
+			"posterHeight" : 570,	//幻灯片第一帧的高度
 			"scale" : 0,			//记录显示比例关系
 			"speed" : 500,
 			"autoPlay" : false,
@@ -138,11 +138,11 @@
 				leftSlice = sliceItems.slice(sliceSize);
 			
 			//设置右边帧的位置关系和宽度高度top
-			var firstLeft = (this.setting.width - this.setting.posterWidth)/4;
+			var firstLeft = (this.setting.width - this.setting.posterWidth)/3;
 			var rw = this.setting.posterWidth,
 				fixOffsetLeft = firstLeft + rw,
 				rh = this.setting.posterHeight,
-				gap = ((this.setting.width - this.setting.posterWidth)/4)/level;
+				gap = ((this.setting.width - this.setting.posterWidth)/3)/level;
 			
 			//设置右边位置关系
 			rightSlice.each(function(i){
@@ -262,12 +262,7 @@ $(function(){
 			$(this).find('.sub-menu').css('display', 'none'); 
 			}); 
 	})();
-	if(screen.width > 1024){
-	 var o = document.createElement('script');
-   o.type = 'text/javascript';
-   o.src = 'myjsfile.js';
-   document.getElementsByTagName('head')[0].appendChild(o);
-	}
+
 });
 })(jQuery);
 

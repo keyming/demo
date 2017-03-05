@@ -404,7 +404,7 @@ section{
 	margin-left:-5px;
 	font-size:12px;
 	max-width:100%;
-	overflow:hidden;
+	overflow-x:hidden;
 	white-space:nowrap;
 	color:#ccc;
 }
@@ -912,43 +912,7 @@ section{
     			  transform: scale(.6) rotate(12deg) translate(-216px,-61px);
     	}
 }
-@media (max-width: 922px){
-.section_right.col-md-5{
-	right:0;
 
-}
-.section_right.col-md-5 .poster-main a,.poster-main img{
-	text-align:center;
-	padding-left:150px;
-	padding-top:20px;
-	display:inline-block;
-}
-.section_right.col-md-5 .poster-main .poster-next{
-	display:none;
-}
-
-}
-@media (max-width: 768px){
-.section_right.col-md-5{
-	right:0;
-
-}
-
-.section_right.col-md-5 .poster-main a,.poster-main img{
-	text-align:center;
-	margin-left:-80px;
-	padding-top:20px;
-	display:inline-block;
-}
-.section_right.col-md-5 .poster-main a,.poster-main span{
-
-	margin-left:-80px;
-}
-.section_right.col-md-5 .poster-main .poster-next{
-	display:none;
-}
-
-}
 
 /*Promotion*/
 .d_icon_activity{
@@ -1099,7 +1063,87 @@ section{
 	margin-right:10px;
 	margin-left:20px;
 }
+@media (max-width: 922px){
+.section_right.col-md-5{
+	right:0;
 
+}
+.section_right.col-md-5 .poster-main a,.poster-main img{
+	text-align:center;
+	padding-left:150px;
+	padding-top:20px;
+	display:inline-block;
+}
+.section_right.col-md-5 .poster-main .poster-next{
+	display:none;
+}
+
+}
+@media (max-width: 768px){
+#Promotion .section_right.col-md-5 .d_content.d_poster{
+	height:230px;
+}
+.poster-main a,.poster-main img{
+	text-align:center;
+	padding: 0 5px;
+	padding-top:10px;
+	display:inline-block;
+}
+.poster-item>a>span{
+	width:200px;
+	height:35px;
+	line-height:35px;
+	color:#999;
+	text-align:center;
+	background-color:#222328;
+	display:inline-block;
+}
+.poster-item>a:hover span{
+	color:#00c0ff;
+}
+.poster-main .poster-list .poster-item{ 
+	position:absolute;
+	left:0;
+	top:0;
+}
+.pictureSlider .poster_btn{ 
+	position:absolute;
+	top:0;
+	z-index:10;
+	height:20px;
+	width:20px;
+	cursor:pointer;
+	opacity:1;
+	display:block;
+	
+}
+.pictureSlider  a:hover.poster_btn{
+	background-color:#000;
+	background-color:rgba(0,0,0,0.5);
+
+}
+.section_right.col-md-5 .poster-main .poster-next{
+	display:none;
+}
+.section_right.col-md-5 .poster-main .poster-prev{
+	display:none;
+}
+.d_icon_map{
+	background-position:-3px -169px;
+}
+.section_right.col-md-5 .row{
+	margin-left:0px;
+	width:100%;
+}
+.section_right.col-md-5 .poster-main {
+	margin-left:-175px;
+}
+.row .d-list .poster-item{
+	margin-top:15px;
+	margin-right:10px;
+	margin-left:10px;
+}
+}
 
 
   /*vedio*/
